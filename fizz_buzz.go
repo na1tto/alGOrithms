@@ -20,7 +20,7 @@ func FizzBuzz(n int) {
 	printFizzBuzzValue(n)
 	fmt.Println()
 }
-
+	
 func printFizzBuzzValue(n int){
 	if n%3 == 0 && n%5 == 0 {
 		fmt.Print("Fizz Buzz")
