@@ -82,10 +82,10 @@ func main() {
 		})
 	}
 
-	fmt.Println("-------STARTING QUIZZ-------")
+	fmt.Println("-------STARTING QUIZ-------")
 
 	for i, q := range quizzes {
-		fmt.Printf("Quizz %d: %d + %d \n", i+1, q.fn, q.sn)
+		fmt.Printf("Quiz %d: %d + %d \n", i+1, q.fn, q.sn)
 
 		fmt.Scanf("%d\n", &input)
 
@@ -95,5 +95,5 @@ func main() {
 		}
 	}
 
-	fmt.Printf("QUIZZ ENDED, YOUR SCORE: %d \n", score)
+	fmt.Printf("QUIZ ENDED, YOUR SCORE: %d \n", score)
 }
